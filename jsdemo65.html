@@ -1,0 +1,14 @@
+<html>
+<body>
+<p>the filter method in array</p>
+<p id="demo"></p>
+<script>
+var a=[22,14,6,7,88];
+var b=a.filter(myFunction);
+document.getElementById("demo").innerHTML=b;
+function myFunction(value){
+return value > 15;
+}
+</script>
+</body>
+</html>

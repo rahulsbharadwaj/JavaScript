@@ -1,0 +1,18 @@
+<html>
+<body>
+<p>the foreach loop in javaScript</p>
+<p id="demo"></p>
+<script>
+var car=["volvo","audi","bmw"];
+var text;
+text="<ul>";
+car.forEach(myFunction);
+text+="<ul>";
+document.getElementById("demo").innerHTML=text;
+function myFunction(value){
+text +="<li>"+value+"</li>"
+}
+
+</script>
+</body>
+</html>

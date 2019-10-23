@@ -1,0 +1,20 @@
+<html>
+<body>
+<p>the sorting of elements</p>
+<button type="button" onclick="myFunction()">clickMe</button>
+<button type="button" onclick="myFunction1()">clickMe</button>
+<p id="demo"></p>
+<script>
+var point=[10,2,34,33,65,66];
+document.getElementById("demo").innerHTML="the original array is"+point;
+function myFunction(){
+var b=point.sort();
+document.getElementById('demo').innerHTML="alphabetically sort "+b;
+}
+function myFunction1() {
+  point.sort(function(a, b){return a - b});
+  document.getElementById("demo").innerHTML ="the numaric sort= "+point;
+}
+</script>
+</body>
+</html>

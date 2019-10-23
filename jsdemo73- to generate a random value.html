@@ -1,0 +1,12 @@
+<html>
+<body>
+<p>to generate a random number</p>
+<button type="button" onclick="document.getElementById('demo').innerHTML=myFunction(0,100)">click me</button>
+<p id="demo"></p>
+<script>
+function myFunction(min,max){
+return Math.floor(Math.random()*(max+min))+min;
+}
+</script>
+</body>
+</html>

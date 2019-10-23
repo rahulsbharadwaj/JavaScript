@@ -1,0 +1,22 @@
+<html>
+<body>
+<p>to find the highest and the lowest in an array</p>
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<script>
+var a=[19,44,55,23,64,123,33];
+document.getElementById("demo").innerHTML="the elements of the array are = "+a;
+a.sort(function(a,b){return a-b})
+document.getElementById("demo1").innerHTML="the sorted array is="+a;
+var b=a[0];
+document.getElementById("demo2").innerHTML="the smallest element in the array is "+b;
+var c=a[a.length-1];
+document.getElementById("demo3").innerHTML="the largest element in the array is "+c;
+var d=a[(a.length)/2];
+document.getElementById("demo4").innerHTML="the middle element in thr array is "+d;
+</script>
+</body>
+</html>

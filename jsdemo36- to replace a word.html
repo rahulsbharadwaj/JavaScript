@@ -1,0 +1,21 @@
+<html>
+<body>
+<button type="button" onclick="Myfunction()">Clickme</button>
+<p id="demo">Pleace visit microsoft</p>
+
+<button type="button" onclick="myFunction()">Clickme</button>
+<p id="demo1">Pleace visit microsoft</p>
+<script>
+function Myfunction(){
+var a = document.getElementById("demo").innerHTML;
+var b = a.replace("microsoft","myhouse");
+doucment.getElementById('demo').innerHTML = b;
+}
+function myFunction() {
+  var str = document.getElementById("demo1").innerHTML; 
+  var txt = str.replace("microsoft","W3Schools");
+  document.getElementById("demo1").innerHTML = txt;
+}
+</script>
+</body>
+</html>

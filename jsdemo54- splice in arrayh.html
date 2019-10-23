@@ -1,0 +1,17 @@
+<html>
+<body>
+<p>the splice method in js</p>
+<button type="button" onclick="myFunction()">click me</button>
+<p id="demo"></p>
+<p id="demo1"></p>
+<script>
+var car=["volvo","audi"];
+document.getElementById("demo").innerHTML="the original array "+car;
+function myFunction(){
+car.splice(1,0,"bmw","nissan");
+document.getElementById("demo1").innerHTML="the array after splice "+car;
+
+}
+</script>
+</body>
+</html>

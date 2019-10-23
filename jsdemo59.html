@@ -1,0 +1,15 @@
+<html>
+<body>
+<p>sorting numbers in js</p>
+<button type="button"  onclick="myFunction()">click me</button>
+<p id="demo"></p>
+<script>
+var c=[13,55,67,43,53];
+document.getElementById("demo").innerHTML=c;
+function myFunction(){
+c.sort(function(a,b){return a - b});
+ducument.getElementById("demo").innerHTML=c;
+}
+</script>
+</body>
+</html>

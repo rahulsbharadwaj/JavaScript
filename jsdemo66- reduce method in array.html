@@ -1,0 +1,14 @@
+<html>
+<body>
+<p>the string iteration using reduce method</p>
+<p id="demo"></p>
+<script>
+var a=[13,34,45,56,67,76];
+var b= a.reduce(myFunction);
+document.getElementById("demo").innerHTML=b;
+function myFunction(total,value){
+return total+value;
+}
+</script>
+</body>
+</html>
